@@ -9,7 +9,7 @@ if (isset($_GET['quanly']) && $_GET['quanly'] == 'dangxuat') {
 ?>
 <div class="header">
     <div class="menu">
-        <img src="{{asset('img/logo2.png')}}" alt="">
+        <img src="{{asset('fontend/img/logo2.png')}}" alt="">
         <ul>
             <li>
                 <a href="index.php"><i class="fas fa-home"></i> Trang chủ</a>

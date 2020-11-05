@@ -5,10 +5,10 @@ if(isset($_GET['quanly'])){
 <div class="banner">
             <div class="swiper-container">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide"><img src="{{asset('img/A1.png')}}" alt=""></div>
-                    <div class="swiper-slide"><img src="{{asset('img/A2.png')}}" alt=""></div>
-                    <div class="swiper-slide"><img src="{{asset('img/A3.png')}}" alt=""></div>
-                    <div class="swiper-slide"><img src="{{asset('img/A5.png')}}" alt=""></div>
+                    <div class="swiper-slide"><img src="{{asset('fontend/img/A1.png')}}" alt=""></div>
+                    <div class="swiper-slide"><img src="{{asset('fontend/img/A2.png')}}" alt=""></div>
+                    <div class="swiper-slide"><img src="{{asset('fontend/img/A3.png')}}" alt=""></div>
+                    <div class="swiper-slide"><img src="{{asset('fontend/img/A5.png')}}" alt=""></div>
 
                 </div>
                 <!-- Add Pagination -->
