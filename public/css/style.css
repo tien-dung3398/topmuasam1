@@ -1,0 +1,299 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 130px;
+    background-color: pink; /*THAY ĐOI MÀU HEADER*/
+    position: fixed;
+    z-index: 1000;
+    top: 0px;
+}
+
+.header .menu {
+    width: 95%;
+    height: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.header .menu>img {
+    width: 100px;
+    height: 70%;
+}
+
+.header .menu>ul {
+    list-style: none;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .menu>ul li a {
+    font-size: 19px;
+    color: black;
+    text-decoration: none;
+}
+
+.header .menu>ul .r-chat {
+    position: relative;
+}
+
+.header .menu>ul li>h3 {
+    color: #fff;
+    position: absolute;
+    top: -8px;
+    width: 17px;
+    height: 17px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(250, 40, 0, 0.8);
+    font-size: 15px;
+    border-radius: 4px;
+    left: 10px;
+}
+
+.header .menu>ul li button {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 19px;
+}
+
+.header .seach {
+    width: 70%;
+    height: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .seach ul {
+    list-style: none;
+    width: 60%;
+    height: 70%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.header .seach ul form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.header .seach ul form .text {
+    width: 80%;
+    height: 100%;
+}
+
+.header .seach ul form .text input[type='text'] {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+}
+
+.header .seach ul form .text ::placeholder {
+    padding-left: 10px;
+    font-size: 16px;
+    font-style: oblique;
+}
+
+.header .seach ul form .search {
+    width: 20%;
+    height: 100%;
+}
+
+.header .seach ul form .search button {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    outline: none;
+    border: none;
+    text-align: right;
+}
+
+.header .seach ul form .search button>i {
+    font-size: 25px;
+    color: orangered;
+    margin-right: 10px;
+}
+
+.header .seach .login a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.header .seach .login a i {
+    font-size: 40px;
+    margin-right: 7px;
+}
+
+.header .seach .dangtin {
+    font-size: 21px;
+    background-color: orange;
+    width: 17%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.header .seach .dangtin a {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.header .seach .dangtin a i {
+    font-size: 23px;
+}
+
+.header .menu ul li .them {
+    position: absolute;
+    background-color: #fff;
+    width: 30%;
+    top: 50px;
+    right: 0px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: none;
+}
+
+.header .menu ul li .them>ul {
+    list-style: none;
+    width: 100%;
+    height: auto;
+}
+
+.header .menu ul li .them>ul>.row1 {
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.header .menu ul li .them>ul>.row1 img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-right: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.header .menu ul li .them>ul>.row1>p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.header .menu ul li .them>ul>.row1 a {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.header .menu ul li .them>ul>.row1 a:hover {
+    color: red;
+}
+
+.header .menu ul li .them>ul>.row2 {
+    margin-top: 20px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: auto;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.header .menu ul li .them>ul>.row2>p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+    width: 70%;
+    margin: auto;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 10px;
+}
+
+.header .menu ul li .them>ul>.row2>p span {
+    font-size: 20px;
+    margin-right: 5px;
+    color: black;
+}
+
+.header .menu ul li .them>ul>.row3 {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.header .menu ul li .them>ul>.row3 ul {
+    width: 100%;
+    height: auto;
+    list-style: none;
+}
+
+.header .menu ul li .them>ul>.row3 ul a {
+    font-size: 15px;
+}
+
+.header .menu ul li .them>ul>.row3 ul li {
+    width: 100%;
+    height: 40px;
+    padding-left: 8%;
+    display: flex;
+    align-items: center;
+}
+
+.header .menu ul li .them>ul>.row3 ul li:hover {
+    background-color: #f4f4f4;
+}
+
+.header .menu ul li .them>ul>.row3 li {
+    width: 100%;
+    height: 40px;
+}
+
+.header .menu ul li .them>ul>.row3 li i {
+    margin-right: 10px;
+    font-size: 18px;
+    color: red;
+}
+
+.header .menu>ul li .them button {
+    width: 20px;
+    background-color: transparent;
+    border: none;
+    width: 20px;
+    position: absolute;
+    right: 0px;
+    color: red;
+}
+
+.header .menu>ul li .them button:active {
+    border: 1px solid red;
+}

@@ -1,0 +1,178 @@
+.content .step8 {
+    width: 100%;
+    height: 700px;
+    margin: auto;
+    margin-top: 130px;
+}
+
+.content .step8 .title {
+    width: 100%;
+    height: 8%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.content .step8 .title>p {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    font-size: 17px;
+    font-weight: 600;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+}
+
+.content .step8 .title>p>a {
+    position: absolute;
+    left: 0px;
+    font-size: 13px;
+    color: black;
+}
+
+.content .step8 .title>.hr {
+    border: 3px solid #33a837;
+    width: 62%;
+    margin-left: 15%;
+}
+
+.content .step8 .title>p {
+    width: 70%;
+    height: 90%;
+    margin: auto;
+    font-size: 17px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .step8 .noidung3 {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+}
+
+.content .step8 .noidung3>.span2 {
+    height: 7.5%;
+    width: 100%;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ebccd1;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding-left: 18px;
+    color: #a94442;
+    background-color: #f2dede;
+}
+
+.content .step8 .noidung3>.span1 {
+    height: 7.5%;
+    width: 100%;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.content .step8 .noidung3>.tinhtrang {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.content .step8 .noidung3>.span1>input {
+    margin-right: 10px;
+}
+
+.content .step8 .noidung3>p>i {
+    font-size: 5px;
+    margin-right: 7px;
+}
+
+.content .step8 .noidung3 ul {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    list-style: none;
+    border-radius: 3px;
+    overflow: hidden;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.content .step8 .noidung3 ul li {
+    height: 50px;
+    width: 100%;
+    font-size: 14px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.content .step8 .noidung3 ul li:hover {
+    background-color: #f4f4f4;
+}
+
+.content .step8 .noidung3 ul li p {
+    margin-right: 10px;
+}
+
+.content .step8 .noidung3 ul li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.content .step1 .noidung>.nd4 {
+    height: 8%;
+    width: 100%;
+    font-size: 17px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.content .step8 .title>.hr2 {
+    border: 3px solid #33a837;
+    width: 17%;
+    margin-left: 15%;
+}
+
+.content .step8 .btn {
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.content .step8 .btn>button {
+    width: 70%;
+    height: 50px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #fe9900;
+    border: none;
+    border-radius: 7px;
+    outline: none;
+}
+
+.content .step8 .btn>button:hover {
+    background-color: rgb(255, 186, 0);
+}
+
+.content .step8 .btn>button>i {
+    margin-left: 5px;
+}

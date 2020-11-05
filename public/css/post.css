@@ -1,0 +1,38 @@
+    .content .posts{
+    margin:auto;
+    width: 70%;
+    list-style: none;
+    height: auto;
+    margin-top: 130px;
+    border-bottom: none;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+.content .post{
+    width: 100%;
+    height: auto;
+}
+.content .post p {
+    padding: 10px;
+    width: 100%;
+    text-align: justify;
+    font-style:normal; 
+    font-family: Time New Roman;
+    line-height: 1.5;
+}
+.content .post .img{
+    width:100%;
+    height: auto;
+}
+.content .post .img>img{
+    width:100%;
+
+}
+.content .post .img>span{
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+    

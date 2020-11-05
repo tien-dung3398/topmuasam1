@@ -1,0 +1,454 @@
+.chat {
+    width: 70%;
+    height: 100vh;
+    margin: auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 130px;
+    display: block;
+    overflow: hidden;
+    border-top: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.chat .left {
+    width: 35%;
+    float: left;
+    box-sizing: border-box;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.chat .left>p {
+    font-size: 15px;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.chat .left>p>a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.chat .left p .all:visited {
+    color: red;
+}
+
+.chat .left .all-mess {
+    width: 100%;
+    height: 94%;
+}
+
+.chat .left ul {
+    width: 100%;
+    height: 90%;
+    overflow-y: scroll;
+}
+
+.chat .left .all-mess a button {
+    margin: 2%;
+}
+
+.chat .left ul::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+.chat .left ul::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.chat .left .all-mess ul>a {
+    text-decoration: none;
+    color: black;
+}
+
+.chat .left a li {
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+}
+
+.chat .left a li .img {
+    width: 23%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.chat .left a li .img>p {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.chat .left a li .img img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.chat .left a li .content {
+    width: 55%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 2%;
+}
+
+.chat .left a li .content .nd {
+    width: 100%;
+    height: 80%;
+}
+
+.chat .left a li .content>.nd .name {
+    font-size: 14px;
+    height: 18px;
+    display: block;
+    overflow: hidden;
+}
+
+.chat .left a li .content>.nd .title {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 14px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.chat .left a li .content>.nd .cont {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+}
+
+.chat .left a li .content p span {
+    font-size: 11px;
+    font-weight: 200;
+}
+
+.chat .left a li .img2 {
+    width: 22%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chat .left a li .img2>img {
+    width: 50px;
+    height: 60px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.chat .right {
+    width: 65%;
+    height: 100%;
+    float: right;
+    background-color: #ececec;
+    box-sizing: border-box;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chat .right .mess-chat {
+    width: 100%;
+    height: 100%;
+}
+
+.chat .right .mess-chat .name-time {
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    position: relative;
+}
+
+.chat .right .mess-chat .name-time img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-right: 10px;
+}
+
+.chat .right .mess-chat .name-time p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.chat .right .mess-chat .name-time p>span {
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.chat .right .mess-chat .name-time>.row1>span i {
+    font-size: 7px;
+    color: green;
+}
+
+.chat .right .mess-chat .name-time>.row1>span .online {
+    font-size: 7px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.chat .right .mess-chat .name-time>.row1>span>.online {
+    font-size: 7px;
+}
+
+.chat .right .mess-chat .name-time>.row2 {
+    width: 60px;
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: none;
+    border-right: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0px;
+}
+
+.chat .right .mess-chat .name-time>.row2>a {
+    font-size: 27px;
+    text-decoration: none;
+    color: black;
+}
+
+.chat .right .mess-chat>.title {
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    background: #FFF;
+}
+
+.chat .right .mess-chat>.title img {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.chat .right .mess-chat>.title p {
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    position: relative;
+    font-weight: 600;
+}
+
+.chat .right .mess-chat>.title>p>span {
+    position: absolute;
+    bottom: 30px;
+    color: red;
+    font-size: 16px;
+    font-weight: initial;
+}
+
+.chat .right .mess-chat .content-text {
+    width: 100%;
+    height: 90%;
+    ;
+}
+
+.chat .right .mess-chat .content-text ul {
+    width: 100%;
+    height: 55%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    list-style: none;
+    overflow: scroll;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.chat .right .mess-chat .content-text ul::-webkit-scrollbar {
+    width: 10px;
+}
+
+.chat .right .mess-chat .content-text ul::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.chat .right .mess-chat .content-text ul::-webkit-scrollbar-corner {
+    background-color: #ececec;
+}
+
+.chat .right .mess-chat .content-text ul .you {
+    height: auto;
+    width: auto;
+}
+
+.chat .right .mess-chat .content-text ul .you>.cont {
+    display: flex;
+    height: 100%;
+}
+
+.chat .right .mess-chat .content-text ul .you>.time-now {
+    margin-left: 150px;
+    width: 100px;
+    font-size: 9px;
+    text-align: right;
+    padding-right: 5px;
+}
+
+.chat .right .mess-chat .content-text ul .me>.conte {
+    font-size: 9px;
+    text-align: center;
+    width: auto;
+    height: 100%;
+}
+
+.chat .right .mess-chat .content-text ul .me>.time-me {
+    width: 95px;
+    font-size: 9px;
+    float: right;
+    padding-right: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.chat .right .mess-chat .content-text ul .you img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.chat .right .mess-chat .content-text ul .you input[type="text"] {
+    height: auto;
+    width: auto;
+    background-color: #fff;
+    padding: 15px;
+    max-width: 300px;
+    border-radius: 7px;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+
+.chat .right .mess-chat .content-text ul>li {
+    margin-bottom: 12px;
+    height: 50px;
+    width: 100%;
+}
+
+.chat .right .mess-chat .content-text ul .me input[type="text"] {
+    height: auto;
+    width: auto;
+    background-color: #fff2a6;
+    float: right;
+    padding: 15px;
+    max-width: 300px;
+    border-radius: 7px;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+
+.chat .right .mess-chat .content-text .write {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    padding-top: 3%;
+}
+
+.chat .right .mess-chat .content-text .write .span1 {
+    height: 40px;
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.chat .right .mess-chat .content-text .write .span1>p {
+    width: 105px;
+    padding: 10px;
+    border: 1px solid orange;
+    border-radius: 20px;
+    margin-left: 15px;
+}
+
+.chat .right .mess-chat .content-text .write .span2 {
+    width: 100%;
+    height: 40px;
+}
+
+.chat .right .mess-chat .content-text .write .span2 form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.chat .right .mess-chat .content-text .write .span2 p {
+    width: 70%;
+    height: 100%;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    display: block;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.chat .right .mess-chat .content-text .write .span2 p>input[type='text'] {
+    width: 70%;
+    height: 100%;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.chat .right .mess-chat .content-text .write .span2 p>button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.chat .right .mess-chat .content-text .write .span2 p>button i {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.chat .right .mess-chat .content-text .write .span2 p>button i:active {
+    color: black;
+}

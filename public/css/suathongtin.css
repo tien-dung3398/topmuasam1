@@ -1,0 +1,247 @@
+.suathongtin {
+    width: 100%;
+    height: auto;
+    background-color: #f4f4f4;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+.suathongtin>.content {
+    width: 70%;
+    height: auto;
+    margin: auto;
+    margin-top: 130px;
+    background-color: #f4f4f4;
+    display: flex;
+}
+
+.suathongtin .content .thongtin {
+    width: 75%;
+    height: auto;
+    background-color: #fff;
+}
+
+.suathongtin .content .thongtin>p {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.suathongtin .content .thongtin>ul {
+    width: 100%;
+    height: auto;
+    list-style: none;
+    display: inline-flex;
+}
+
+.suathongtin .content .thongtin>ul .image {
+    width: 30%;
+    height: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.suathongtin .content .thongtin>ul .image img {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.suathongtin .content .thongtin>ul .hoso {
+    width: 65%;
+    height: auto;
+}
+
+.suathongtin .content .thongtin>ul .hoso ul {
+    width: 100%;
+    height: auto;
+    list-style: none;
+    margin-top: 15px;
+}
+
+.suathongtin .content .thongtin>ul .hoso>ul li {
+    width: 100%;
+    height: 80px;
+}
+
+.suathongtin .content .thongtin>ul .hoso>ul li p {
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.suathongtin .content .thongtin>ul .hoso>ul li .tex {
+    width: 100%;
+    height: 50%;
+    background-color: #eeeeee;
+    border-radius: 5px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.suathongtin .content .thongtin>ul .hoso>ul li .tex>input[type="text"] {
+    width: 80%;
+    height: 100%;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.suathongtin .content .thongtin>ul .hoso>ul li .tex button {
+    width: 10%;
+    height: 100%;
+    background-color: #eeeeee;
+    border-radius: 5px;
+    display: inline-flex;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.suathongtin .content .thongtin>ul .hoso>ul li .tex button i {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.suathongtin .content .thongtin>ul .hoso>ul li .tex>input[type="text"]::placeholder {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 14px;
+}
+
+.suathongtin .content .thongtin>ul .hoso li>a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+}
+
+.suathongtin .content .napthe {
+    width: 23.5%;
+    height: 430px;
+    background-color: #fff;
+    margin-top: 13px;
+    margin-left: 1.5%;
+}
+
+.suathongtin .content .napthe>ul {
+    list-style: none;
+    width: 100%;
+    height: auto;
+}
+
+.suathongtin .content .napthe .dongtot {
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.suathongtin .content .napthe .dongtot img {
+    width: 100px;
+    height: 100px;
+}
+
+.suathongtin .content .napthe .dongtot p {
+    margin-top: 25px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.suathongtin .content .napthe .dongtot p span {
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.suathongtin .content .napthe .menhgia {
+    width: 100%;
+    height: auto;
+}
+
+.suathongtin .content .napthe .menhgia>p {
+    width: 100%;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+    height: 30px;
+    background-color: #dfdfdf;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30%;
+}
+
+.suathongtin .content .napthe .menhgia>p i {
+    margin-right: 10%;
+    font-size: 20px;
+}
+
+.suathongtin .content .napthe .menhgia>ul {
+    list-style: none;
+    width: 100%;
+    height: auto;
+}
+
+.suathongtin .content .napthe .menhgia>ul li {
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    display: inline-flex;
+    align-items: center;
+    padding-left: 20px;
+    position: relative;
+}
+
+.suathongtin .content .napthe .menhgia>ul li input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.suathongtin .content .napthe .menhgia>ul li p {
+    width: 30px;
+    height: 30px;
+    border: 2px solid goldenrod;
+    font-size: 10px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: goldenrod;
+    position: absolute;
+    right: 7px;
+}
+
+.suathongtin .content .napthe .menhgia>ul .bnt {
+    border: none;
+}
+
+.suathongtin .content .napthe .menhgia>ul .bnt button {
+    width: 90%;
+    height: 30px;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: #5a9e3f;
+    outline-color: red;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.suathongtin .content .napthe .menhgia>ul .bnt button:hover {
+    background-color: #4cc524;
+}

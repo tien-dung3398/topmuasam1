@@ -1,0 +1,151 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.suathongtin {
+    width: 100%;
+    height: auto;
+    background-color: #f4f4f4;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+.suathongtin>.content {
+    width: 70%;
+    height: auto;
+    margin: auto;
+    background-color: #f4f4f4;
+    display: flex;
+}
+
+.suathongtin .content .thongtin {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+}
+
+.suathongtin .content .thongtin>p {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 20px;
+}
+
+.suathongtin .content .thongtin>p .title2 {
+    color: red;
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+.suathongtin .content .thongtin>ul {
+    width: 100%;
+    height: auto;
+    list-style: none;
+    display: inline-flex;
+}
+
+.suathongtin .content .thongtin>ul .image {
+    width: 30%;
+    height: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.suathongtin .content .thongtin>ul .image img {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.suathongtin .content .thongtin>ul .hoso {
+    width: 65%;
+    height: auto;
+}
+
+.suathongtin .content .thongtin>ul .hoso ul {
+    width: 100%;
+    height: auto;
+    list-style: none;
+    margin-top: 15px;
+}
+
+.suathongtin .content .thongtin>ul .hoso>ul li {
+    width: 100%;
+    height: 80px;
+}
+
+.suathongtin .content .thongtin>ul .hoso>ul li p {
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.suathongtin .content .thongtin>ul .hoso>ul li .tex {
+    width: 100%;
+    height: 50%;
+    background-color: #eeeeee;
+    border-radius: 5px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.suathongtin .content .thongtin>ul .hoso>ul li .tex>input[type="text"] {
+    width: 80%;
+    height: 100%;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.suathongtin .content .thongtin>ul .hoso>ul li .tex button {
+    width: 10%;
+    height: 100%;
+    background-color: #eeeeee;
+    border-radius: 5px;
+    display: inline-flex;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.suathongtin .content .thongtin>ul .hoso>ul li .tex button i {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.suathongtin .content .thongtin>ul .hoso>ul li .tex>input[type="text"]::placeholder {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 14px;
+}
+
+.suathongtin .content .thongtin>ul .hoso li>button {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    background-color: #167ac6;
+    outline-color: red;
+    border: none;
+    width: 200px;
+    height: 40px;
+    margin-left: 10%;
+    margin-top: 3%;
+    border-radius: 5px;
+}
+
+.suathongtin .content .thongtin>ul .hoso li>button:hover {
+    background-color: #00ff2a;
+}

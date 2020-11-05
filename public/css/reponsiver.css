@@ -1,0 +1,356 @@
+/* lg */
+
+@media (min-width: 1200px) {
+    .header .menu>img {
+        width: 100px;
+        height: 70%;
+    }
+    .sp li .desc a>img {
+        width: 400px
+    }
+    .header .menu>ul {
+        list-style: none;
+        width: 60%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .banner {
+        width: 100%;
+        height: 500px;
+        margin: auto;
+        margin-top: 110px;
+    }
+    .header {
+        width: 100%;
+        height: 110px;
+        background-color: pink;
+        /*THAY ĐOI MÀU HEADER*/
+        position: fixed;
+        z-index: 1000;
+        top: 0px;
+    }
+}
+
+.content {
+    width: 80%;
+}
+
+.content .sp {
+    margin: auto;
+    width: 150%;
+    list-style: none;
+    height: 800px;
+    border-bottom: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.content .sp>li .desc .row2 {
+    margin-left: 20px;
+    float: right;
+    text-decoration: none;
+    text-align: justify;
+    position: relative;
+    color: black;
+}
+
+
+/* md */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .header .menu>img {
+        width: 100px;
+        height: 70%;
+    }
+    .sp li .desc a>img {
+        width: 400px
+    }
+    .header .menu>ul {
+        list-style: none;
+        width: 60%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .banner {
+        width: 100%;
+        height: 400px;
+        margin: auto;
+        margin-top: 110px;
+    }
+    .header {
+        width: 100%;
+        height: 110px;
+        background-color: pink;
+        /*THAY ĐOI MÀU HEADER*/
+        position: fixed;
+        z-index: 1000;
+        top: 0px;
+    }
+}
+
+.content .sp {
+    margin: auto;
+    width: 150%;
+    list-style: none;
+    height: 800px;
+    border-bottom: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.content .sp>li .desc .row2 {
+    margin-left: 20px;
+    float: right;
+    text-decoration: none;
+    text-align: justify;
+    position: relative;
+    color: black;
+}
+
+.content .sp>li .desc .row2 .text {
+    height: 125px;
+    display: flex;
+    overflow: hidden;
+}
+
+
+/* sm */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .header .menu>img {
+        width: 60px;
+        height: 60%;
+    }
+    .header .menu>ul {
+        list-style: none;
+        width: 85%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .sp li .desc a>img {
+        width: 350px
+    }
+    .banner {
+        width: 100%;
+        height: 300px;
+        margin: auto;
+        margin-top: 100px;
+    }
+    .header {
+        width: 100%;
+        height: 100px;
+        background-color: pink;
+        /*THAY ĐOI MÀU HEADER*/
+        position: fixed;
+        z-index: 1000;
+        top: 0px;
+    }
+    .content .sp {
+        margin: auto;
+        width: 90%;
+        list-style: none;
+        height: 800px;
+        border-bottom: none;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        overflow-y: scroll;
+    }
+    .content .sp>li .desc a img {
+        height: 90%;
+        width: 150px;
+    }
+    .content .sp>li .desc .row2 {
+        margin-left: 15px;
+        line-height: 1.2;
+    }
+    .content .sp>li .desc .row2 .text {
+        height: 133px;
+        display: flex;
+        overflow: hidden;
+    }
+}
+
+
+/* xs */
+
+@media (max-width: 769px) {
+    .header .menu>img {
+        width: 60px;
+        height: 60%;
+    }
+    .header .menu>ul {
+        list-style: none;
+        width: 85%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .sp li .desc a>img {
+        width: 320px
+    }
+    .banner {
+        width: 100%;
+        height: 300px;
+        margin: auto;
+        margin-top: 100px;
+    }
+    .header {
+        width: 100%;
+        height: 100px;
+        background-color: pink;
+        /*THAY ĐOI MÀU HEADER*/
+        position: fixed;
+        z-index: 1000;
+        top: 0px;
+    }
+    .content .sp {
+        margin: auto;
+        width: 90%;
+        list-style: none;
+        height: 800px;
+        border-bottom: none;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        overflow-y: scroll;
+    }
+    .content .sp>li .desc a img {
+        height: 90%;
+        width: 150px;
+    }
+    .content .sp>li .desc .row2 {
+        margin-left: 15px;
+        line-height: 1.2;
+    }
+    .content .sp>li .desc .row2 .text {
+        height: 133px;
+        display: flex;
+        overflow: hidden;
+    }
+    .content .sp>li .desc .row2 .title {
+        text-align: justify;
+        line-height: 1.5;
+        font-weight: 600;
+    }
+}
+
+
+/* XS Portrait */
+
+@media (max-width: 490px) {
+    .header {
+        width: 100%;
+        height: 65px;
+        background-color: pink;
+        /*THAY ĐOI MÀU HEADER*/
+        position: fixed;
+        z-index: 1000;
+        top: 0px;
+        font-size: 14px;
+    }
+    .header .menu>ul li button {
+        background-color: transparent;
+        outline: none;
+        border: none;
+        font-size: 19px;
+        display: none;
+    }
+    .header .menu>ul {
+        list-style: none;
+        width: 84%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header .menu>ul li a {
+        font-size: 13px;
+        color: black;
+        text-decoration: none;
+    }
+    .content .sp>li .desc a>.img {
+        height: 40%;
+        width: 100px;
+    }
+    .content .posts {
+        margin: auto;
+        width: 100%;
+        list-style: none;
+        height: auto;
+        margin-top: 130px;
+        border-bottom: none;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    .banner {
+        width: 100%;
+        height: 200px;
+        margin: auto;
+        margin-top: 65px;
+    }
+    .header .seach ul {
+        list-style: none;
+        width: 60%;
+        height: 60%;
+        border-radius: 5px;
+        overflow: hidden;
+        font-size: 13px;
+        display: none;
+    }
+    .header .seach ul form .text ::placeholder {
+        padding-left: 5px;
+        font-size: 10px;
+        font-style: oblique;
+        display: none;
+        display: none;
+    }
+    .header .seach ul form .search button>i {
+        font-size: 15px;
+        color: orangered;
+        margin-right: 10px;
+    }
+    .header .seach .login a {
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        right: 20px;
+        bottom: 10px
+    }
+    .content {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        background-color: #f4f4f4;
+        box-sizing: border-box;
+    }
+    .content .sp {
+        margin: auto;
+        width: 100%;
+        list-style: none;
+        border-bottom: none;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        overflow-y: scroll;
+    }
+    .sp li .desc a>img {
+        width: 200px;
+        height: 80%;
+    }
+    .content .sp>li .desc .row2 .title {
+        text-align: justify;
+        line-height: 1;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .content .sp>li .desc .row2 .text {
+        height: 136px;
+        display: flex;
+        overflow: hidden;
+        letter-spacing: 0.5px;
+        word-spacing: -2px;
+    }
+}

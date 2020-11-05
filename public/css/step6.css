@@ -1,0 +1,154 @@
+.content .step6 {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    padding-top: 130px;
+}
+
+.content .step6>.title {
+    width: 70%;
+    height: 55px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin: auto;
+    align-items: center;
+    position: relative;
+}
+
+.content .step6>.title>p {
+    width: 100%;
+    height: 90%;
+    margin: auto;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .step6>.title>p>a {
+    position: absolute;
+    left: 0px;
+    color: black;
+}
+
+.content .step6>.title .hr7 {
+    position: absolute;
+    bottom: 0px;
+    width: 75%;
+    border: 3px solid #33a837;
+}
+
+.content .step6 .cont {
+    width: 70%;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.content .step6 .cont>.file {
+    width: 90%;
+    height: 200px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    cursor: pointer;
+}
+
+.content .step6 .cont>.file>p {
+    width: 130px;
+    height: 130px;
+    position: relative;
+}
+
+.content .step6 .cont>.file>span {
+    font-style: italic;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.content .step6 .cont>.file>span>i {
+    padding-right: 5px;
+}
+
+.content .step6 .cont>.file>p>input {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    z-index: 1;
+}
+
+.content .step6 .cont>.file>p>img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.content .step6 .cont>ul {
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+    color: #31708f;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-radius: 7px;
+    width: 90%;
+    margin: auto;
+}
+
+.content .step6 .cont>ul>.row1 {
+    margin-bottom: 18px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.content .step6 .cont>ul>.row2 {
+    margin-bottom: 18px;
+    margin-top: 18px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.content .step6 .cont>ul>li {
+    margin-left: 20px;
+    margin-bottom: 7px;
+    font-size: 15px;
+}
+
+.content .step6 .btn {
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.content .step6 .btn>button {
+    width: 70%;
+    height: 50px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #fe9900;
+    border: none;
+    border-radius: 7px;
+    outline: none;
+}
+
+.content .step6 .btn>button:hover {
+    background-color: rgb(255, 186, 0);
+}
+
+.content .step6 .btn>button>i {
+    margin-left: 5px;
+}

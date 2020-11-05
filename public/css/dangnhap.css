@@ -1,0 +1,467 @@
+.dangnhap {
+    width: 70%;
+    height: auto;
+    margin: auto;
+    margin-top: 130px;
+}
+
+.dangnhap form {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.dangnhap table {
+    width: 45%;
+    height: 95%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+}
+
+.dangnhap table tr {
+    width: 100%;
+    height: 12.5%;
+    text-align: center;
+}
+
+.dangnhap table tr .title {
+    display: flex;
+    justify-content: center;
+}
+
+.dangnhap table tr td h3 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    width: 120px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.dangnhap table tr td ::placeholder {
+    font-style: italic;
+    padding-left: 10px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.dangnhap table tr td input[type='text'] {
+    width: 90%;
+    height: 80%;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #e8f0fe;
+}
+
+.dangnhap table tr .ghinho {
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.dangnhap table tr .ghinho input[type='checkbox'] {
+    margin-right: 5px;
+}
+
+.dangnhap table tr td button {
+    width: 90%;
+    height: 80%;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+    background-color: #fc9827;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.dangnhap table tr .quenmatkhau {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.dangnhap table tr .quenmatkhau p {
+    width: 90%;
+    height: 80%;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    background-color: #ebebeb;
+}
+
+.dangnhap table tr .quenmatkhau p a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 14px;
+}
+
+.dangnhap table tr .hoac {
+    color: rgba(0, 0, 0, 0.2);
+    font-size: 15px;
+}
+
+.dangnhap table .dnfb-dk {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.dangnhap table tr .dn-dk {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dangnhap table tr .dn-dk p {
+    width: 49%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.dangnhap table tr .dn-dk p a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.dangnhap table tr .dn-dk .dnfb {
+    background-color: #385794;
+}
+
+.dangnhap table tr .dn-dk .dnfb i {
+    font-size: 18px;
+}
+
+.dangnhap table tr .dn-dk .dk {
+    background-color: #5cb85c;
+}
+
+
+/* sau dang nhap */
+
+.content-login {
+    background-color: #f1f1f1;
+    height: auto;
+    margin-top: 130px;
+}
+
+.content-login .login {
+    width: 70%;
+    height: auto;
+    margin: auto
+}
+
+.login>ul {
+    width: 100%;
+    list-style: none;
+    padding-top: 40px;
+    border: 1px solid transparent;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+.login>ul li {
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 15px;
+}
+
+.login>ul .cv {
+    height: 200px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.login>ul .cv .avata {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    font-size: 13px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.login>ul .cv .avata img {
+    width: 80px;
+    height: 80px;
+    background-color: blue;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.login>ul .cv .avata .image {
+    width: 80px;
+    height: 80px;
+    background-color: blue;
+    border-radius: 50%;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 900;
+    color: #fff;
+    overflow: hidden;
+    background-color: rgb(188, 188, 188);
+}
+
+.login ul .cv .avata .name {
+    width: 60%;
+    height: 100%;
+}
+
+.login ul .cv .avata .name ul {
+    width: 100%;
+    height: auto;
+    list-style: none;
+    padding-top: 25px;
+}
+
+.login ul .cv .avata .name>ul li {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login ul .cv .avata .name>ul li .use {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.login ul .cv .avata .name>ul li p span {
+    font-weight: 600;
+}
+
+.login ul .cv .avata .name>ul>li>.edit>a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.login ul .cv .avata .name>ul li .edit {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    padding: 4px;
+}
+
+.login ul .cv .avata .name>ul li .edit:hover {
+    opacity: 0.5;
+}
+
+.login ul .cv .thongtin {
+    width: 50%;
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.login ul .cv .thongtin>ul {
+    list-style: none;
+    width: 80%;
+    height: auto;
+    padding: 13px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+}
+
+.login ul .cv .thongtin ul li {
+    display: inline-flex;
+}
+
+.login ul .cv .thongtin ul li i {
+    margin-right: 10px;
+}
+
+.login ul .post {
+    width: 100%;
+    height: auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.login ul .post>p {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 18px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+}
+
+.login ul .post>p>span {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.login ul .post ul {
+    list-style: none;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding-bottom: 30px;
+}
+
+.login ul .post ul li {
+    width: 96%;
+    height: 150px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-left: none;
+    border-right: none;
+    margin: auto;
+    display: inline-flex;
+    font-size: 15px;
+}
+
+.login ul .post ul li img {
+    width: 15%;
+    height: 70%;
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.login ul .post ul li .giohang {
+    width: 70%;
+    padding-top: 25px;
+}
+
+.login ul .post ul li .giohang>p {
+    font-size: 14px;
+}
+
+.login ul .post ul li .giohang>p span {
+    padding-top: 20px;
+    color: red;
+    font-weight: 600;
+}
+
+.login ul .post ul li .giohang>.time {
+    margin-top: 30px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.login ul .post ul li .giohang>.time i {
+    font-size: 17px;
+}
+
+.login ul .post ul li .like {
+    width: 5%;
+    height: 100%;
+    margin-left: 7%;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-bottom: 15px;
+}
+
+.login ul .post ul li .like button {
+    width: 25px;
+    height: 25px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.login ul .post ul li .like .dislike i {
+    font-size: 22px;
+    color: red;
+}
+
+.login ul .post ul li .like i {
+    font-size: 22px;
+    color: red;
+}
+
+.login ul .hoso {
+    width: 100%;
+    height: auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.login ul .xinviec {
+    width: 100%;
+    height: auto;
+}
+
+.login ul .xinviec h4 {
+    width: 100%;
+    height: 50px;
+    display: inline-flex;
+    align-items: center;
+    padding-left: 17px;
+}
+
+.login ul .xinviec .icon {
+    width: 97%;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 30px;
+}
+
+.login ul .xinviec .icon .text {
+    width: 100%;
+    height: auto;
+}
+
+.login ul .xinviec .icon .text p {
+    width: 45%;
+    height: 50px;
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+    border-radius: 5px;
+    color: #8a6d3b;
+    font-size: 15px;
+}
+
+.login ul .xinviec .icon .link {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.login ul .xinviec .icon .link p {
+    width: 45%;
+    height: 40px;
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: #fe9900;
+    border-radius: 5px;
+}
+
+.login ul .xinviec .icon .link p:hover {
+    background-color: #ebebeb;
+}
+
+.login ul .xinviec .icon .link p a {
+    text-decoration: none;
+    color: #fe9900;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+}
